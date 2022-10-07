@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://d14ov391oau18f.cloudfront.net/_next/static/css/d04e824c496d86f8.css" data-n-g="">
+    <style>
+      .event-wrapper {
+        padding: 64px 0;
+        max-width: 540px;
+        margin: 0 auto;
+      }
+      .event-wrapper .col-form-label {
+        padding-top: .75em;
+        font-size: 1.15em;
+      }
+      .event-wrapper input[type=number], .event-wrapper input[type=email] {
+        height: 48px;    
+      }
+      .event-wrapper .event_ul li {
+        padding-left: 20px;
+        position: relative;
+      }
+      .event-wrapper .event_ul li:before {
+        content: '※';
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .event-wrapper .btn {
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="event-wrapper">
+        <section>
+          <h1 class="title">영화 '거미집' NFT VOD 사전 예약</h1>
+          <ul class="mt-4 p-0 mb-4 event_ul">
+            <li>본 예약 신청 시 {언제}로 예정된 영화 ‘거미집' NFT VOD의 배포 시 우선 구매권한을  부여합니다.</li>      
+            <li>NFT VOD의 배포 일정은 영화 일정에 따라 변경될 수 있습니다.</li>
+          </ul>
+          <form method="post">
+            <div class="form-group row">
+              <label for="inputEmail" class="col-sm-3 col-form-label text-sm-end">이메일 주소 :</label>
+              <div class="col-sm-9 input-form">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email address">
+              </div>
+            </div>
+            <div class="form-group row mt-3">
+              <label for="inputQty" class="col-sm-3 col-form-label text-sm-end">예약 수량 :</label>
+              <div class="col-sm-9">
+                  <input type="number" class="form-control w-25 d-inline-block">
+                  개
+              </div>
+            </div>
+            <div class="form-group row mt-4">
+              <div class="check-area">
+                <div class="wrap-check">
+                  <input type="checkbox" name="terms" id="serviceTerm" value="false">
+                  <label for="serviceTerm">개인정보 이용에 동의합니다.</label>
+                </div>
+              </div>
+            </div>
+          </form>
+          <button type="submit" class="btn btn-lg btn-primary w-100 mt-5">NFT VOD PRE-ORDER</button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
